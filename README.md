@@ -1,5 +1,6 @@
 # Hand Gesture Recognition App
 ![img.png](img.png)
+
 The Hand Gesture Recognition App is developed in Python using several libraries such as TensorFlow, Keras, MediaPipe, OpenCV, and Tkinter. This application is designed to recognize hand gestures in real-time through a webcam feed. Gestures are classified using a trained Convolutional Neural Network (CNN) Model.
 
 The application trains a model for the gesture classification or loads a pre-trained model if available. It utilizes the VGG16 architecture as a base model, with additional Dense and Dropout layers. During training, data augmentation techniques are applied to the training data to improve the model's performance and ability to generalize. Once the model is trained or loaded, it starts predicting the gestures appearing in the webcam feed.
